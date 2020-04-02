@@ -58,8 +58,6 @@ This is my implementation of the bubble sort algorithm
 
 This is the first project of the Microverse Ruby Module
 
-This is also the Assignment_1 of the [Odin project curriculum](https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks)
-
 <!-- ABOUT THE PROJECT -->
 ## Testing
 
