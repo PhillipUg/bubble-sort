@@ -64,7 +64,7 @@ This is the first project of the Microverse Ruby Module
 To test the code you need to give it some test cases like the ones below and execute it to see if it performs as expected: 
 
 ```
-bubble_sort_by(%w[hi hello hey]) do |left, right|
+bubble_sort_by(["burgers","hi","hello","hey"]) do |left, right|
   left.length - right.length
 end
 
