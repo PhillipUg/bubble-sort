@@ -1,5 +1,5 @@
-# bubble-sort
-The goal here is implementing the bubble sort algorithm
+# The Bubble Sort Algorithm 
+This is my implementation of the bubble sort algorithm
 
 <!--
 *** Thanks for checking out this README Template. If you have a suggestion that would
@@ -62,18 +62,17 @@ This is the first project of the Microverse Ruby Module
 This is also the Assignment_1 of the [Odin project curriculum](https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks)
 
 <!-- ABOUT THE PROJECT -->
-## Installation
+## Testing
 
-To test the code you need to write this at the end and execute it with [ruby](https://repl.it) : 
+To test the code you need to give it some test cases like the ones below and execute it to see if it performs as expected: 
 
 ```
-bubble = bubble_sort_by(%w[hi hello hey]) do |left, right|
+bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
 
-p bubble_sort([1, 3, 42, 54, 21, 221, 31, 2, 0])
-puts
-p bubble
+print bubble_sort([1, 3, 42, 54, 21, 221, 31, 2, 0])
+
 
 ```
 
