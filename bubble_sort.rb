@@ -1,5 +1,5 @@
 def bubble_sort(arr)
-  i = arr.length
+  i = arr.size
   (0..i).each do |k|
     ((k + 1)..i - 1).each do |j|
       next unless arr[k] > arr[j]
@@ -13,7 +13,7 @@ def bubble_sort(arr)
 end
 
 def bubble_sort_by(arr)
-  i = arr.length
+  i = arr.size
   (0..i).each do |k|
     ((k + 1)..i - 1).each do |j|
       next unless yield(arr[k], arr[j]).positive?
@@ -23,5 +23,7 @@ def bubble_sort_by(arr)
       arr[k] = placeholder
     end
   end
-  arr
+ arr
 end
+
+
