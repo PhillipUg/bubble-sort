@@ -23,7 +23,5 @@ def bubble_sort_by(arr)
       arr[k] = placeholder
     end
   end
- arr
+  arr
 end
-
-
